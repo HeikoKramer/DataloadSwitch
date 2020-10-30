@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Enable App (available &amp; visible) for Lightning App &apos;Dataload Switch&apos; (DataloadSwitch).</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Dataload Switch App</label>
+    <license>Salesforce</license>
+</PermissionSet>
