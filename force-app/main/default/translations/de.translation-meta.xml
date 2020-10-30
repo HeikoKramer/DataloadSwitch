@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Dataload Switch --></label>
+        <name>DataloadSwitch</name>
+    </customApplications>
+    <customLabels>
+        <label>Validierungsregeln</label>
+        <name>ValidationRules</name>
+    </customLabels>
+</Translations>
