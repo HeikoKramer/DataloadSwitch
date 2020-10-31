@@ -1,11 +1,3304 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
+        <label><!-- Apex Recipes --></label>
+        <name>Apex_Recipes</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Checkout Management App --></label>
+        <name>Checkout_Management_App</name>
+    </customApplications>
+    <customApplications>
         <label><!-- Dataload Switch --></label>
         <name>DataloadSwitch</name>
     </customApplications>
+    <customApplications>
+        <label><!-- License Management App --></label>
+        <name>LicenseManagementApp</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Partner Order --></label>
+        <name>Partner_Order</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- API Authentication Error --></label>
+        <name>CHANNEL_ORDERS__API_Authentication_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Callout Error --></label>
+        <name>CHANNEL_ORDERS__API_Callout_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Callout Success --></label>
+        <name>CHANNEL_ORDERS__API_Callout_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Callout Timeout Error --></label>
+        <name>CHANNEL_ORDERS__API_Callout_Timeout_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Error 400 --></label>
+        <name>CHANNEL_ORDERS__API_Error_400</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Error 404 --></label>
+        <name>CHANNEL_ORDERS__API_Error_404</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Error 500 --></label>
+        <name>CHANNEL_ORDERS__API_Error_500</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Error OldOrder --></label>
+        <name>CHANNEL_ORDERS__API_Error_OldOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Error OrderStartDate --></label>
+        <name>CHANNEL_ORDERS__API_Error_OrderStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Order Unexpected Error --></label>
+        <name>CHANNEL_ORDERS__API_Order_Unexpected_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API UncommitedWork Error --></label>
+        <name>CHANNEL_ORDERS__API_UncommitedWork_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Unknown Error --></label>
+        <name>CHANNEL_ORDERS__API_Unknown_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- show a Invoice Description text field below the product name --></label>
+        <name>CHANNEL_ORDERS__Add_Invoice_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Admin licenses Validation Response --></label>
+        <name>CHANNEL_ORDERS__Admin_Licences_validation_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- An Error Occurred --></label>
+        <name>CHANNEL_ORDERS__An_Error_Occurred</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- At least one admin license required. --></label>
+        <name>CHANNEL_ORDERS__At_Least_One_Admin_License_Required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auto Renewal Validation Response --></label>
+        <name>CHANNEL_ORDERS__Auto_renewal_validation_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not all terms and conditions accepted --></label>
+        <name>CHANNEL_ORDERS__COA_AcceptTermsAndConditions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions --></label>
+        <name>CHANNEL_ORDERS__COA_Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for ActivationCode field. --></label>
+        <name>CHANNEL_ORDERS__COA_ActivationCode_Text_Credentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed on header for active modal. --></label>
+        <name>CHANNEL_ORDERS__COA_ActiveModalUITextAppSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add On Label --></label>
+        <name>CHANNEL_ORDERS__COA_AddOn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Addon On PopOver Label --></label>
+        <name>CHANNEL_ORDERS__COA_AddOnPopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- label for All Products list title --></label>
+        <name>CHANNEL_ORDERS__COA_AllProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- An Error Occurred --></label>
+        <name>CHANNEL_ORDERS__COA_An_Error_Occurred</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for ApiKey field. --></label>
+        <name>CHANNEL_ORDERS__COA_ApiKey_Text_Credentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application Name Label --></label>
+        <name>CHANNEL_ORDERS__COA_ApplicationName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Assistive text for remove buttons --></label>
+        <name>CHANNEL_ORDERS__COA_AssistiveTextRemove</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Billing Address Label --></label>
+        <name>CHANNEL_ORDERS__COA_BillingAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Billing Frequency Label --></label>
+        <name>CHANNEL_ORDERS__COA_BillingFrequency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed when prod setting is blank --></label>
+        <name>CHANNEL_ORDERS__COA_BlankProdCredUITextAppSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed when test setting is blank --></label>
+        <name>CHANNEL_ORDERS__COA_BlankTestCredUITextAppSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancellation Label --></label>
+        <name>CHANNEL_ORDERS__COA_Cancellation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancellation invalid time frame. --></label>
+        <name>CHANNEL_ORDERS__COA_CancellationInvalidTimeFrame</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancellation PopOver Label --></label>
+        <name>CHANNEL_ORDERS__COA_CancellationPopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancellation Terms Label --></label>
+        <name>CHANNEL_ORDERS__COA_CancellationTerms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when unable to set active cred. --></label>
+        <name>CHANNEL_ORDERS__COA_CannotSetActiveCredentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The COA cannot submit orders --></label>
+        <name>CHANNEL_ORDERS__COA_CannotSubmitOrders</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- City Label --></label>
+        <name>CHANNEL_ORDERS__COA_City</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown on cloning order with inactive PCCT. --></label>
+        <name>CHANNEL_ORDERS__COA_CloneOrderWithInaPCCTError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Company Label --></label>
+        <name>CHANNEL_ORDERS__COA_Company</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Company Name Label --></label>
+        <name>CHANNEL_ORDERS__COA_CompanyName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm Clone Action --></label>
+        <name>CHANNEL_ORDERS__COA_ConfirmCloneAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm Recall Action --></label>
+        <name>CHANNEL_ORDERS__COA_ConfirmRecallAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm Submit Action --></label>
+        <name>CHANNEL_ORDERS__COA_ConfirmSubmitAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Continue Button. --></label>
+        <name>CHANNEL_ORDERS__COA_ContinueButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contract Auto Renew Label --></label>
+        <name>CHANNEL_ORDERS__COA_ContractAutoRenew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contract Length Label --></label>
+        <name>CHANNEL_ORDERS__COA_ContractLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contract Type Label --></label>
+        <name>CHANNEL_ORDERS__COA_ContractType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Could not find customer. --></label>
+        <name>CHANNEL_ORDERS__COA_Could_Not_Find_Customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Could not find service order. --></label>
+        <name>CHANNEL_ORDERS__COA_Could_Not_Find_Service_Order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Country Label --></label>
+        <name>CHANNEL_ORDERS__COA_Country</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for Current licenses popOver --></label>
+        <name>CHANNEL_ORDERS__COA_CurrentLicensesPopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;Current Licenses&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_CurrentLicensesTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Action Continue --></label>
+        <name>CHANNEL_ORDERS__COA_CustomActionContinue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Terms Label --></label>
+        <name>CHANNEL_ORDERS__COA_CustomTerms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Fields Title --></label>
+        <name>CHANNEL_ORDERS__COA_Custom_Fields_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COA_NoActiveOrderData_Error_Message --></label>
+        <name>CHANNEL_ORDERS__COA_CustomerHasNoOrders_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Information Title Label --></label>
+        <name>CHANNEL_ORDERS__COA_CustomerInformationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Type Label --></label>
+        <name>CHANNEL_ORDERS__COA_CustomerType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customers --></label>
+        <name>CHANNEL_ORDERS__COA_Customers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Date Customer Accepted SFDC Agreement Tooltip --></label>
+        <name>CHANNEL_ORDERS__COA_DateCustomerAcceptedSFDCAgreementTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Date Customer Accepted Salesforce Service Agreement Label --></label>
+        <name>CHANNEL_ORDERS__COA_DateCustomerAcceptedSFDCServiceAgreement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required field when Service Order is not a cancellation order --></label>
+        <name>CHANNEL_ORDERS__COA_DatePartnerAcceptedSfdcServiceAgmt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Date Partner Received Customer Order Label --></label>
+        <name>CHANNEL_ORDERS__COA_DatePartnerReceivedCustomerOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- label for Ends in x days Status column at product list --></label>
+        <name>CHANNEL_ORDERS__COA_Days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete text button. --></label>
+        <name>CHANNEL_ORDERS__COA_DeleteButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description label for the item table component --></label>
+        <name>CHANNEL_ORDERS__COA_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Provide new credentials for a production connection or test environment. --></label>
+        <name>CHANNEL_ORDERS__COA_EditModalHeaderDescriptionUIText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Provide new credentials for a production connection or test environment. --></label>
+        <name>CHANNEL_ORDERS__COA_EditModalHeaderUIText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- label for Ends in x days Status column at product list --></label>
+        <name>CHANNEL_ORDERS__COA_EndsInDays</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Entity Type Text --></label>
+        <name>CHANNEL_ORDERS__COA_EntityType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Cloning Order --></label>
+        <name>CHANNEL_ORDERS__COA_ErrorCloningOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error during Recall Order --></label>
+        <name>CHANNEL_ORDERS__COA_ErrorDuringRecall</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error during order submit: --></label>
+        <name>CHANNEL_ORDERS__COA_ErrorDuringSubmit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on saving credentials --></label>
+        <name>CHANNEL_ORDERS__COA_ErrorOnCredentialsSave</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on sync credentials --></label>
+        <name>CHANNEL_ORDERS__COA_ErrorOnCredentialsSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unknown Error on setup credentials --></label>
+        <name>CHANNEL_ORDERS__COA_ErrorOnSetupUnknown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The selected Partner Contract has missing fields --></label>
+        <name>CHANNEL_ORDERS__COA_ErrorWithStandardTerms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Existing Customer Label --></label>
+        <name>CHANNEL_ORDERS__COA_ExistingCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancellation Approval label --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeCancellationApproval</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description text in finalize step for cancellation orders --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeCancellationDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancellation Error Message --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeCancellationErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancellation Header Message --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeCancellationHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Override process cancellation message --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeCancellationStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General terms and conditions title --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeGeneralContractRulesSubtitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General terms and conditions text --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeGeneralContractRulesText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name of the item table in finalize component --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeItemTableHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- specific rules text --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeSpecificRules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Terms and Conditions --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeTermsAndConditionsSubtitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Finalize terms and conditions title --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeTermsAndConditionsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &apos;YES&apos; warning message --></label>
+        <name>CHANNEL_ORDERS__COA_FinalizeYesWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General purpose validation failure error message --></label>
+        <name>CHANNEL_ORDERS__COA_General_Validation_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Got It button text --></label>
+        <name>CHANNEL_ORDERS__COA_GotItButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General terms and conditions for an add-on or an initial order --></label>
+        <name>CHANNEL_ORDERS__COA_InitialAddOnLegalTxt_Part01</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General terms and conditions for an add-on or an initial order --></label>
+        <name>CHANNEL_ORDERS__COA_InitialAddOnLegalTxt_Part02</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COA_InitialOrderMissingInOrderHistory_Error_Message --></label>
+        <name>CHANNEL_ORDERS__COA_InitialOrderMissingInOrderHistory_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Message Customer Accepted SFDC Service Agreement Date --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidMessageCustomerAcceptedSFDCServiceAgreementDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Message Partner Received Customer Order Date --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidMessagePartnerReceivedCustomerOrderDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Message For Start Date --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidMessageStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Message For Start Date --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidMessageTomorrowStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid operation for status error. --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidOperationForStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Order Received Date --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidOrderReceivedDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid order type specified --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidOrderType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message displayed when the reduction license count exceeds available licenses --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidReductionLicenceCount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Service Agreement Date --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidServiceAgreementDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message displayed when the reduction, update or renewal license is not valid --></label>
+        <name>CHANNEL_ORDERS__COA_InvalidValueError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COA Invalid Customer --></label>
+        <name>CHANNEL_ORDERS__COA_Invalid_Customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text to be displayed in modal for a new customer --></label>
+        <name>CHANNEL_ORDERS__COA_IsNewCustomerModalText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of the new customer modal. --></label>
+        <name>CHANNEL_ORDERS__COA_IsNewCustomerModalTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COA_IsSubmittedInAValidTimeFrame_Error_Message --></label>
+        <name>CHANNEL_ORDERS__COA_IsSubmittedInAValidTimeFrame_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;licenses available&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_LicensesAvailableTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;licenses new&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_LicensesNew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;licenses number&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_LicensesNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;Increase Licenses By&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_LicensesToAddTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;licenses to reduce&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_LicensesToReduceTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MainUITextAppSetupPage --></label>
+        <name>CHANNEL_ORDERS__COA_MainUITextAppSetupPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Some required parameters were missing from request to change password. --></label>
+        <name>CHANNEL_ORDERS__COA_MissingChangePasswordParams</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Some required parameters were missing from request to update connection setting. --></label>
+        <name>CHANNEL_ORDERS__COA_MissingUpdateConnectionSettingParams</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Customer Label --></label>
+        <name>CHANNEL_ORDERS__COA_NewCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;New Licenses&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_NewLicensesTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- label for New Order button --></label>
+        <name>CHANNEL_ORDERS__COA_NewOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- There is no active email address. --></label>
+        <name>CHANNEL_ORDERS__COA_NoActiveEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- There is no active email function. --></label>
+        <name>CHANNEL_ORDERS__COA_NoActiveEmailFunction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh button label --></label>
+        <name>CHANNEL_ORDERS__COA_NoApiKeyFoundForRefresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- There is no credential created. --></label>
+        <name>CHANNEL_ORDERS__COA_NoCredentialCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when the customer doesn&apos;t have products for specified contract. --></label>
+        <name>CHANNEL_ORDERS__COA_NoExistingProductsForCustomerAndContract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning Label --></label>
+        <name>CHANNEL_ORDERS__COA_OrderDetailsWizardStepWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Type Label --></label>
+        <name>CHANNEL_ORDERS__COA_OrderType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add-On Order Type --></label>
+        <name>CHANNEL_ORDERS__COA_OrderTypeWizardAddOn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancellation Order Type --></label>
+        <name>CHANNEL_ORDERS__COA_OrderTypeWizardCancellation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Initial Order Type --></label>
+        <name>CHANNEL_ORDERS__COA_OrderTypeWizardInitial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reduction Order Type --></label>
+        <name>CHANNEL_ORDERS__COA_OrderTypeWizardReduction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renewal Order Type --></label>
+        <name>CHANNEL_ORDERS__COA_OrderTypeWizardRenewal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade Order Type --></label>
+        <name>CHANNEL_ORDERS__COA_OrderTypeWizardUpgrade</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Wizard Edit Success --></label>
+        <name>CHANNEL_ORDERS__COA_OrderWizardEditSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recall Success --></label>
+        <name>CHANNEL_ORDERS__COA_OrderWizardRecallSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Failed --></label>
+        <name>CHANNEL_ORDERS__COA_OrderWizardSaveFailure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Success --></label>
+        <name>CHANNEL_ORDERS__COA_OrderWizardSaveSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Submit Failed --></label>
+        <name>CHANNEL_ORDERS__COA_OrderWizardSubmitFailure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Submit Success --></label>
+        <name>CHANNEL_ORDERS__COA_OrderWizardSubmitSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Org ID Label --></label>
+        <name>CHANNEL_ORDERS__COA_OrgID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- datepicker.cmp pick a year --></label>
+        <name>CHANNEL_ORDERS__COA_PickAYear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;Unit Price&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_PriceTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Price Unit --></label>
+        <name>CHANNEL_ORDERS__COA_PriceUnit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;Pricebook&apos; name --></label>
+        <name>CHANNEL_ORDERS__COA_PricebookName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;pricing&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_PricingTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- productTableItem &apos;pricing type&apos; label --></label>
+        <name>CHANNEL_ORDERS__COA_PricingType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- productTableItem &apos;pricing unit&apos; label --></label>
+        <name>CHANNEL_ORDERS__COA_PricingUnit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed on button when prod setting is active --></label>
+        <name>CHANNEL_ORDERS__COA_ProdButtonUITextAppSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed when prod setting is active --></label>
+        <name>CHANNEL_ORDERS__COA_ProdCredUITextAppSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Popup &apos;Product Id&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_ProductIdPopupTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label Product Name --></label>
+        <name>CHANNEL_ORDERS__COA_ProductName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label Product in the popOver --></label>
+        <name>CHANNEL_ORDERS__COA_ProductPopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product-Specific Terms Agree Text --></label>
+        <name>CHANNEL_ORDERS__COA_ProductSpecificTermsAgreeText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Terms Title --></label>
+        <name>CHANNEL_ORDERS__COA_ProductSpecificTermsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;product&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_ProductTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed on Production Tab. --></label>
+        <name>CHANNEL_ORDERS__COA_ProductionTabUIText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reduction orders cannot be applied when a quantity of one existing license --></label>
+        <name>CHANNEL_ORDERS__COA_ReduceWhenLicenseQuantityIsOne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reduction Label --></label>
+        <name>CHANNEL_ORDERS__COA_Reduction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reduction invalid time frame. --></label>
+        <name>CHANNEL_ORDERS__COA_ReductionInvalidTimeFrame</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reduction Order Pop Label --></label>
+        <name>CHANNEL_ORDERS__COA_ReductionOrderPop</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reduction Order Text Label --></label>
+        <name>CHANNEL_ORDERS__COA_ReductionOrderText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reduction PopOver Label --></label>
+        <name>CHANNEL_ORDERS__COA_ReductionPopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reduction reduces all licenses --></label>
+        <name>CHANNEL_ORDERS__COA_ReductionRemovesAllLicenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General terms and conditions for a reduction, upgrade or renewal order --></label>
+        <name>CHANNEL_ORDERS__COA_ReductionRenewalUpgradeLegalTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh button label --></label>
+        <name>CHANNEL_ORDERS__COA_RefreshButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The refresh connection was already processed. --></label>
+        <name>CHANNEL_ORDERS__COA_RefreshNotNeeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh is needed warning --></label>
+        <name>CHANNEL_ORDERS__COA_RefreshWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Opportunity Label --></label>
+        <name>CHANNEL_ORDERS__COA_RelatedOpportunity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of the remove product modal. --></label>
+        <name>CHANNEL_ORDERS__COA_RemoveProductModalTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text to be displayed in modal when a product will be removed --></label>
+        <name>CHANNEL_ORDERS__COA_RemoveProductText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renewal Label --></label>
+        <name>CHANNEL_ORDERS__COA_Renewal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renewal invalid time frame. --></label>
+        <name>CHANNEL_ORDERS__COA_RenewalInvalidTimeFrame</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renewal or upgrade cancels and replaces existing order --></label>
+        <name>CHANNEL_ORDERS__COA_RenewalOrUpgrade_ProductWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renewal Order Text Label --></label>
+        <name>CHANNEL_ORDERS__COA_RenewalOrderText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renewal PopOver Label --></label>
+        <name>CHANNEL_ORDERS__COA_RenewalPopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renewal Terms Label --></label>
+        <name>CHANNEL_ORDERS__COA_RenewalTerms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required label --></label>
+        <name>CHANNEL_ORDERS__COA_Required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required fields missing for service orders --></label>
+        <name>CHANNEL_ORDERS__COA_RequiredFieldsMissing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required Message Label --></label>
+        <name>CHANNEL_ORDERS__COA_RequiredMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required Message Customer Accepted SFDC Service Agreement Date --></label>
+        <name>CHANNEL_ORDERS__COA_RequiredMessageCustomerAcceptedSFDCServiceAgreementDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required Message Partner Received Customer Order Date --></label>
+        <name>CHANNEL_ORDERS__COA_RequiredMessagePartnerReceivedCustomerOrderDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required --></label>
+        <name>CHANNEL_ORDERS__COA_RequiredShortMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required URL Message Label --></label>
+        <name>CHANNEL_ORDERS__COA_RequiredURLMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required Username Message Label --></label>
+        <name>CHANNEL_ORDERS__COA_RequiredUserNameMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Revenue Share popover message --></label>
+        <name>CHANNEL_ORDERS__COA_RevenueSharePop</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Review these messages: --></label>
+        <name>CHANNEL_ORDERS__COA_ReviewTheseMessages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFDC Invoice Description Label --></label>
+        <name>CHANNEL_ORDERS__COA_SFDCInvoiceDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for SFDC Price popOver --></label>
+        <name>CHANNEL_ORDERS__COA_SFDCPricePopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;Revenue Share&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_SFDCPriceTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error displayed when sandbox org tries to connect to prod. --></label>
+        <name>CHANNEL_ORDERS__COA_SandboxOrgCannotConnectToProduction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error displayed when sandbox org tries to submit orders to prod. --></label>
+        <name>CHANNEL_ORDERS__COA_SandboxOrgCannotSubmitToProduction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Customers --></label>
+        <name>CHANNEL_ORDERS__COA_SearchCustomers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Opportunities --></label>
+        <name>CHANNEL_ORDERS__COA_SearchOpportunity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Org IDs --></label>
+        <name>CHANNEL_ORDERS__COA_SearchOrgIds</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Products --></label>
+        <name>CHANNEL_ORDERS__COA_SearchProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed on button to send order to prod. --></label>
+        <name>CHANNEL_ORDERS__COA_SendOrderSalesforceUIText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed on button to send order to test. --></label>
+        <name>CHANNEL_ORDERS__COA_SendOrderTestUIText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed on header for active modal. --></label>
+        <name>CHANNEL_ORDERS__COA_SendOrderUITextAppSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Send Order UI Text AppSetup --></label>
+        <name>CHANNEL_ORDERS__COA_SendToUITextAppSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service and Order Dates Label --></label>
+        <name>CHANNEL_ORDERS__COA_ServiceAndOrderDates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service order id is missing for service orders --></label>
+        <name>CHANNEL_ORDERS__COA_ServiceOrderIdMissing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service Order Invalid Action --></label>
+        <name>CHANNEL_ORDERS__COA_ServiceOrderInvalidAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service Start Date Label --></label>
+        <name>CHANNEL_ORDERS__COA_ServiceStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert Message on COA Setup --></label>
+        <name>CHANNEL_ORDERS__COA_SetupAlertMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup must be complete before using COA --></label>
+        <name>CHANNEL_ORDERS__COA_SetupNotComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Standard Terms Label --></label>
+        <name>CHANNEL_ORDERS__COA_StandardTerms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- State Label --></label>
+        <name>CHANNEL_ORDERS__COA_State</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Street Label --></label>
+        <name>CHANNEL_ORDERS__COA_Street</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for terms text --></label>
+        <name>CHANNEL_ORDERS__COA_Terms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- terms and conditions agree legal text --></label>
+        <name>CHANNEL_ORDERS__COA_TermsLegalAgreeTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LargerView link --></label>
+        <name>CHANNEL_ORDERS__COA_TermsLegalTxtLargerView</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Terms Title Label --></label>
+        <name>CHANNEL_ORDERS__COA_TermsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for terms values --></label>
+        <name>CHANNEL_ORDERS__COA_TermsValues</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed on button when test setting is active --></label>
+        <name>CHANNEL_ORDERS__COA_TestButtonUITextAppSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error displayed when test connection is set against org62. --></label>
+        <name>CHANNEL_ORDERS__COA_TestConnectionSetAgainstProdError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Displayed on Test Tab. --></label>
+        <name>CHANNEL_ORDERS__COA_TestTabUIText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- datepicker.cmp Today --></label>
+        <name>CHANNEL_ORDERS__COA_Today</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for Total Price popOver --></label>
+        <name>CHANNEL_ORDERS__COA_TotalPricePopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;Total Price&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_TotalPriceTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsTable &apos;unit&apos; title --></label>
+        <name>CHANNEL_ORDERS__COA_UnitTableTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade Label --></label>
+        <name>CHANNEL_ORDERS__COA_Upgrade</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade PopOver Label --></label>
+        <name>CHANNEL_ORDERS__COA_UpgradePopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ValidateContractLength error message --></label>
+        <name>CHANNEL_ORDERS__COA_ValidateContractLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ValidateCorrespondingOrderRequired error message --></label>
+        <name>CHANNEL_ORDERS__COA_ValidateCorrespondingOrderRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Country --></label>
+        <name>CHANNEL_ORDERS__COA_ValidateCountry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate org id error message --></label>
+        <name>CHANNEL_ORDERS__COA_ValidateOrgId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate org id key prefix error message --></label>
+        <name>CHANNEL_ORDERS__COA_ValidateOrgIdKeyPrefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ValidateStartDate error message --></label>
+        <name>CHANNEL_ORDERS__COA_ValidateStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid state for country. --></label>
+        <name>CHANNEL_ORDERS__COA_ValidateState</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate zip code error message --></label>
+        <name>CHANNEL_ORDERS__COA_ValidateZipCode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- label for View All button --></label>
+        <name>CHANNEL_ORDERS__COA_ViewAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- label for View More button --></label>
+        <name>CHANNEL_ORDERS__COA_ViewMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning when there are multiple contracts --></label>
+        <name>CHANNEL_ORDERS__COA_WarningMultipleContracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning for service start date no Renewal Date --></label>
+        <name>CHANNEL_ORDERS__COA_WarningOnStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COA Order Wizard Edit Header --></label>
+        <name>CHANNEL_ORDERS__COA_WizardEditHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COA Order Wizard New Header --></label>
+        <name>CHANNEL_ORDERS__COA_WizardNewHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Zip/Postal Label --></label>
+        <name>CHANNEL_ORDERS__COA_ZipPostal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label Contract Id in the popOver --></label>
+        <name>CHANNEL_ORDERS__COA_contractIDPopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot deactivate a user that is being used in email service. --></label>
+        <name>CHANNEL_ORDERS__COA_deactivateUserError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description Text for the item table component --></label>
+        <name>CHANNEL_ORDERS__COA_description_Text_ItemTable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Item Description Label for the DropDown Button --></label>
+        <name>CHANNEL_ORDERS__COA_dropDown_AddDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Description Label for the DropDown Button --></label>
+        <name>CHANNEL_ORDERS__COA_dropDown_EditDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Terms Label for the DropDown Button --></label>
+        <name>CHANNEL_ORDERS__COA_dropDown_EditTerms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove From Order Label for the DropDown Button --></label>
+        <name>CHANNEL_ORDERS__COA_dropDown_RemoveFromOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Split Line Item Label for the DropDown Button --></label>
+        <name>CHANNEL_ORDERS__COA_dropDown_SplitLineItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Product Label for the DropDown Button --></label>
+        <name>CHANNEL_ORDERS__COA_dropDown_ViewProductDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for edit terms text --></label>
+        <name>CHANNEL_ORDERS__COA_editTerms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Description Text --></label>
+        <name>CHANNEL_ORDERS__COA_edit_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for months --></label>
+        <name>CHANNEL_ORDERS__COA_months</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver EndPoint Credentials --></label>
+        <name>CHANNEL_ORDERS__COA_popOverEndPointCredentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title Current AOV --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleCurrentAOV</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title Current AOV Price --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleCurrentAOVPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title Current Total --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleCurrentTotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title License Price --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleLicensePrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title Licenses --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleLicenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title Increase licenses by --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleLicensesToAdd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title Order --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title Order Date --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleOrderDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title SFDC Percentage --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleSFDCPercentage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Title Term --></label>
+        <name>CHANNEL_ORDERS__COA_popOverTitleTerm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the popOver Username Credentials --></label>
+        <name>CHANNEL_ORDERS__COA_popOverUserNameCredentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label Product Id in the popOver --></label>
+        <name>CHANNEL_ORDERS__COA_productIDPopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label Product Name in the popOver --></label>
+        <name>CHANNEL_ORDERS__COA_productNamePopOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- At least one product should be selected --></label>
+        <name>CHANNEL_ORDERS__COA_selectProductsWizardStepSelectionRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot reduce more licenses than available. --></label>
+        <name>CHANNEL_ORDERS__COA_thirdStepWizardCannotReduceMoreLicensesThanAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message shown when customer enters an invalid price. --></label>
+        <name>CHANNEL_ORDERS__COA_thirdStepWizardInvalidPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message shown when customer enters an invalid license quantity. --></label>
+        <name>CHANNEL_ORDERS__COA_thirdStepWizardInvalidQuantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Should submit order as cancellation. --></label>
+        <name>CHANNEL_ORDERS__COA_thirdStepWizardShouldSubmitAsCancellation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- At least one product should be selected --></label>
+        <name>CHANNEL_ORDERS__COA_thirdStepWizardWithoutProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message shown when customer does not reduce licenses --></label>
+        <name>CHANNEL_ORDERS__COA_thirdStepWizardWithoutReducedProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message shown when customer does not reduce licenses --></label>
+        <name>CHANNEL_ORDERS__COA_thirdStepWizardWithoutRenewalProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message shown when customer does not reduce licenses --></label>
+        <name>CHANNEL_ORDERS__COA_thirdStepWizardWithoutUpgradeProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for when there are several unit price --></label>
+        <name>CHANNEL_ORDERS__COA_unitPrice_multiple</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for when the unit price is Fixed --></label>
+        <name>CHANNEL_ORDERS__COA_unitPrice_na</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for unit type --></label>
+        <name>CHANNEL_ORDERS__COA_unitType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Current Quantity in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_CurrentLicenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Current Total Price in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_CurrentTotalPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Licenses to Add in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_LicensesToAdd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Licenses to Renew in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_LicensesToRenew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Licenses to Upgrade in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_LicensesToUpgrade</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column New Quantity in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_NewLicenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column New Total in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_NewTotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column New Total Price in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_NewTotalPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Unit Price in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_PriceUnit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Reduced By in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_ReducedBy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Revenue Share in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_SFDCPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Total Price in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_TotalPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for column Unit Price in the third step --></label>
+        <name>CHANNEL_ORDERS__COA_wizardThirdStep_UnitPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CancellationOrderDetailsError --></label>
+        <name>CHANNEL_ORDERS__CancellationOrderDetailsError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot edit order --></label>
+        <name>CHANNEL_ORDERS__Cannot_Edit_Order_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot submit multiple order of the same type --></label>
+        <name>CHANNEL_ORDERS__Cannot_submit_multiple_orders_of_same_type_validation_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Order --></label>
+        <name>CHANNEL_ORDERS__Clone_Order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Creates a new product based on an existing one --></label>
+        <name>CHANNEL_ORDERS__Clone_This_Product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close --></label>
+        <name>CHANNEL_ORDERS__Close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm_Custom_Action --></label>
+        <name>CHANNEL_ORDERS__Confirm_Custom_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contract_Switch_help --></label>
+        <name>CHANNEL_ORDERS__Contract_Switch_help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Could not find an Active Initial Order --></label>
+        <name>CHANNEL_ORDERS__Could_not_find_Initial_Activated_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Action Clone --></label>
+        <name>CHANNEL_ORDERS__Custom_Action_Clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Action Recall --></label>
+        <name>CHANNEL_ORDERS__Custom_Action_Recall</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Action Submit --></label>
+        <name>CHANNEL_ORDERS__Custom_Action_Submit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomerPriceMonthUI --></label>
+        <name>CHANNEL_ORDERS__CustomerPriceMonthUI</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Information Required --></label>
+        <name>CHANNEL_ORDERS__Customer_Information_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DPP Warning on Submit --></label>
+        <name>CHANNEL_ORDERS__DPP_Warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>CHANNEL_ORDERS__Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Order --></label>
+        <name>CHANNEL_ORDERS__Delete_Order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Order confirmation text. --></label>
+        <name>CHANNEL_ORDERS__Delete_Order_Confirmation_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Derived price product Validation Response --></label>
+        <name>CHANNEL_ORDERS__Derived_price_product_validation_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Done --></label>
+        <name>CHANNEL_ORDERS__Done</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_AcceptedSFDCAgmt --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_AcceptedSFDCAgmt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_CancellationTermsInvalid --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_CancellationTermsInvalid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_CancellationTermsRequired --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_CancellationTermsRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_City --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_City</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_CompanyName --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_CompanyName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Company Name is too long --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_CompanyNameLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_Contract --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_Contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_ContractLengthInvalid --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_ContractLengthInvalid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_ContractLengthRequired --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_ContractLengthRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_Country --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_Country</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Country is too long --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_CountryLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_CustPriceInvalid --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_CustPriceInvalid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_CustPriceRequired --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_CustPriceRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_DatePartnerReceiveOrder --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_DatePartnerReceiveOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_DuplicatedOrgId --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_DuplicatedOrgId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg Invalid Number --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_Invalid_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Catalog for the selected Contract Term --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_NoCatalogForTheSelectedContractTerm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_NoCustomerResults --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_NoCustomerResults</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_NoCustomerResultsByOrgId --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_NoCustomerResultsByOrgId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_OrderType --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_OrderType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Org Id --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_OrgId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- An Error Occurred while retrieving renewal date --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_RenewalDateNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_RenewalTermsInvalid --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_RenewalTermsInvalid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_RenewalTermsRequired --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_RenewalTermsRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_StartDate --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_StartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_State --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_State</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_Street --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_Street</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Street is too long --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_StreetLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_TotalQuantity --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_TotalQuantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_Zip --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_Zip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_Zip_CA --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_Zip_CA</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMsg_Zip_USA --></label>
+        <name>CHANNEL_ORDERS__ErrorMsg_Zip_USA</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for select order type --></label>
+        <name>CHANNEL_ORDERS__HelpText_AddOn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for select order type --></label>
+        <name>CHANNEL_ORDERS__HelpText_Cancellation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for select order type --></label>
+        <name>CHANNEL_ORDERS__HelpText_Initial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for % Net Revenue --></label>
+        <name>CHANNEL_ORDERS__HelpText_NetRevenue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- {HelpText_OrderType} --></label>
+        <name>CHANNEL_ORDERS__HelpText_OrderType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for Org ID field in Service Order creation page --></label>
+        <name>CHANNEL_ORDERS__HelpText_OrgID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for select order type --></label>
+        <name>CHANNEL_ORDERS__HelpText_Reduction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for Refresh Product Details button --></label>
+        <name>CHANNEL_ORDERS__HelpText_RefreshProductDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for select order type --></label>
+        <name>CHANNEL_ORDERS__HelpText_Renewal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for SFDC Invoice Description --></label>
+        <name>CHANNEL_ORDERS__HelpText_SFDCInvoiceDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for Service Start Date --></label>
+        <name>CHANNEL_ORDERS__HelpText_ServiceStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for select order type --></label>
+        <name>CHANNEL_ORDERS__HelpText_Upgrade</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ISV_Contract --></label>
+        <name>CHANNEL_ORDERS__ISV_Contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Internal Error Response --></label>
+        <name>CHANNEL_ORDERS__Internal_error_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Field --></label>
+        <name>CHANNEL_ORDERS__Invalid_Field_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Order Type --></label>
+        <name>CHANNEL_ORDERS__Invalid_order_type_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Is Contract Switch --></label>
+        <name>CHANNEL_ORDERS__Is_Contract_Switch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Specified Price Book Id doesn&apos;t has active licenses --></label>
+        <name>CHANNEL_ORDERS__LicensePriceBookIdNotExistErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Specified Unit price to reduce doesn&apos;t has active licenses --></label>
+        <name>CHANNEL_ORDERS__LicensePriceNotExistErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity for specified unit price exceeded --></label>
+        <name>CHANNEL_ORDERS__LicenseQuantityNotReduciblePerPriceErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Licenses cannot be negative Validation Response --></label>
+        <name>CHANNEL_ORDERS__Licenses_Negative_validation_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum length exceeded --></label>
+        <name>CHANNEL_ORDERS__Maximum_Length_exceeded_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multiple Active Contract, Log Case --></label>
+        <name>CHANNEL_ORDERS__Multiple_Active_Contract_Log_Case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Active Account Found --></label>
+        <name>CHANNEL_ORDERS__No_Active_account_found_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No reset processing time required --></label>
+        <name>CHANNEL_ORDERS__No_reset_processing_time_required_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None selected --></label>
+        <name>CHANNEL_ORDERS__None_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not allowed to sell to existing org --></label>
+        <name>CHANNEL_ORDERS__Not_allowed_to_sell_to_existing_org_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OEM Contract --></label>
+        <name>CHANNEL_ORDERS__OEM_Contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Only one active contract validation --></label>
+        <name>CHANNEL_ORDERS__Only_One_Active_Contract_validation_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- order type renawal --></label>
+        <name>CHANNEL_ORDERS__OrderType_Renewal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- order type renawal --></label>
+        <name>CHANNEL_ORDERS__OrderType_UpgradeOrg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_Back --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_Cancel --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_Clone --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_Clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_Confirm --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_Confirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_Modify --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_Modify</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_Save --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_Submit --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_Submit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_SubmitNewOrder --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_SubmitNewOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUIBtn_SyncCatalog --></label>
+        <name>CHANNEL_ORDERS__OrderUIBtn_SyncCatalog</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUITitle_MyOrders --></label>
+        <name>CHANNEL_ORDERS__OrderUITitle_MyOrders</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUITitle_SFCOA --></label>
+        <name>CHANNEL_ORDERS__OrderUITitle_SFCOA</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_Action --></label>
+        <name>CHANNEL_ORDERS__OrderUI_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_CancelLegalTxt --></label>
+        <name>CHANNEL_ORDERS__OrderUI_CancelLegalTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_CancelMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_CancelMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_Contract --></label>
+        <name>CHANNEL_ORDERS__OrderUI_Contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_ContractTitle --></label>
+        <name>CHANNEL_ORDERS__OrderUI_ContractTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_Customer --></label>
+        <name>CHANNEL_ORDERS__OrderUI_Customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_CustomerMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_CustomerMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_CustomerName --></label>
+        <name>CHANNEL_ORDERS__OrderUI_CustomerName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_Edit --></label>
+        <name>CHANNEL_ORDERS__OrderUI_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI EditOrder --></label>
+        <name>CHANNEL_ORDERS__OrderUI_EditOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_HeaderSubtitle --></label>
+        <name>CHANNEL_ORDERS__OrderUI_HeaderSubtitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_InitialAddOLegalTxt --></label>
+        <name>CHANNEL_ORDERS__OrderUI_InitialAddOLegalTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_InitialAddOLegalTxt_Part01 --></label>
+        <name>CHANNEL_ORDERS__OrderUI_InitialAddOLegalTxt_Part01</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_InitialAddOLegalTxt_Part_02 --></label>
+        <name>CHANNEL_ORDERS__OrderUI_InitialAddOLegalTxt_Part_02</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_InitialAddOnMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_InitialAddOnMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OldCOAOrderErrorMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OldCOAOrderErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_Order --></label>
+        <name>CHANNEL_ORDERS__OrderUI_Order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OrderCancelMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OrderCancelMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OrderConfirmation --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OrderConfirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OrderMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OrderMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OrderNum --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OrderNum</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OrderServiceDates --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OrderServiceDates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OrderStartDate --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OrderStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OrderStatus --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OrderStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_OrgID --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OrgID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI OverrideTermsMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_OverrideTermsMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_ReductionLegalTxt --></label>
+        <name>CHANNEL_ORDERS__OrderUI_ReductionLegalTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_ReductionMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_ReductionMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_SearchMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_SearchMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_SubmitNewOrder --></label>
+        <name>CHANNEL_ORDERS__OrderUI_SubmitNewOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_Title --></label>
+        <name>CHANNEL_ORDERS__OrderUI_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_UpgradeMsg --></label>
+        <name>CHANNEL_ORDERS__OrderUI_UpgradeMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI_View --></label>
+        <name>CHANNEL_ORDERS__OrderUI_View</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderUI ViewOrder --></label>
+        <name>CHANNEL_ORDERS__OrderUI_ViewOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Contents --></label>
+        <name>CHANNEL_ORDERS__Order_Contents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Created --></label>
+        <name>CHANNEL_ORDERS__Order_Created</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Details --></label>
+        <name>CHANNEL_ORDERS__Order_Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Details Header --></label>
+        <name>CHANNEL_ORDERS__Order_Details_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Recalled --></label>
+        <name>CHANNEL_ORDERS__Order_Recalled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Submitted --></label>
+        <name>CHANNEL_ORDERS__Order_Submitted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order type already submitted --></label>
+        <name>CHANNEL_ORDERS__Order_Type_Already_submitted_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order cannot be resubmitted --></label>
+        <name>CHANNEL_ORDERS__Order_cannot_be_resubmitted_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order detail has different Contract Term as PCCT --></label>
+        <name>CHANNEL_ORDERS__Order_detail_diff_Contract_Terms_as_PCCT_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order detail has different Contract Term as PPC --></label>
+        <name>CHANNEL_ORDERS__Order_detail_diff_Contract_Terms_as_PPC_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order detail fields not overridable --></label>
+        <name>CHANNEL_ORDERS__Order_detail_fields_not_overridable_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order details required --></label>
+        <name>CHANNEL_ORDERS__Order_details_are_required_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order details has different Contract Term between themselves --></label>
+        <name>CHANNEL_ORDERS__Order_details_diff_Contract_Terms_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order should be submitted as edit --></label>
+        <name>CHANNEL_ORDERS__Order_should_be_submitted_as_edit_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Contract Term Out of sync --></label>
+        <name>CHANNEL_ORDERS__PartnerContractTerm_out_of_sync_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PartnerOrderProductQuantityLimitExceeded --></label>
+        <name>CHANNEL_ORDERS__PartnerOrderProductQuantityLimitExceeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PartnerOrderRenewalStartDateNotValid --></label>
+        <name>CHANNEL_ORDERS__PartnerOrderRenewalStartDateNotValid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Order Required --></label>
+        <name>CHANNEL_ORDERS__Partner_order_required_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Id is not valid --></label>
+        <name>CHANNEL_ORDERS__Product_Id_not_valid_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product or Contract not Active --></label>
+        <name>CHANNEL_ORDERS__Product_OR_Contract_Not_Active</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Queue has different order type --></label>
+        <name>CHANNEL_ORDERS__Queue_has_different_order_type_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RequiredInput --></label>
+        <name>CHANNEL_ORDERS__RequiredInput</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required Field --></label>
+        <name>CHANNEL_ORDERS__Required_Field_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFDC Invoice description too long --></label>
+        <name>CHANNEL_ORDERS__SFDC_Invoice_description_too_long</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFDC Line Item Invoice Description --></label>
+        <name>CHANNEL_ORDERS__SFDC_Line_Item_Invoice_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select_Contract --></label>
+        <name>CHANNEL_ORDERS__Select_Contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderApiKeyError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderApiKeyError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderCustomSettingError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderCustomSettingError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderDraftStatus --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderDraftStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderErrorStatus --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderErrorStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderISVforceError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderISVforceError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderInsufficientAccessServiceOrderDetailFields --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderInsufficientAccessServiceOrderDetailFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderInsufficientAccessServiceOrderFields --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderInsufficientAccessServiceOrderFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationAcceptEmailFromError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationAcceptEmailFromError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationCredsOrgEmailAddress --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCredsOrgEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service order integration credentials password --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCredsPass</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service order integration credentials save button --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCredsSave</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service order integration credentials test connection button --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCredsTest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service order integration credentials title --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCredsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service order integration credentials login url --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCredsURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service order integration credentials username --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCredsUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationCreds_DefaultEndPoint --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCreds_DefaultEndPoint</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationCreds_DefaultURL --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCreds_DefaultURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationCreds_Endpoint --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCreds_Endpoint</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationCreds_EndpointHelpTxt --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCreds_EndpointHelpTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationCreds_ServiceType --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCreds_ServiceType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationCreds_Subtitle --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationCreds_Subtitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderIntegrationOrgEmailAddressError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderIntegrationOrgEmailAddressError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderInvalidLoginError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderInvalidLoginError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderInvalidUrlError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderInvalidUrlError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderNoAccessToIntegrationCredsPage --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderNoAccessToIntegrationCredsPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderNoOrderDetailError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderNoOrderDetailError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderNoOrderStatusAllowed --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderNoOrderStatusAllowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderSaveCredsFieldRequired --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderSaveCredsFieldRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderSaveCredsSuccessful --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderSaveCredsSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderStartDateError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderStartDateError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderSubmittedStatus --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderSubmittedStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderSyncConfig --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderSyncConfig</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderTermsAndConditions --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderTermsAndConditions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderTestConnectionSuccessful --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderTestConnectionSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderTimeoutError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderTimeoutError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderUnauthorizedEndpointError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderUnauthorizedEndpointError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrderUnknownError --></label>
+        <name>CHANNEL_ORDERS__ServiceOrderUnknownError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ServiceOrder_MngPkgName --></label>
+        <name>CHANNEL_ORDERS__ServiceOrder_MngPkgName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service and Order Dates --></label>
+        <name>CHANNEL_ORDERS__Service_And_Order_Dates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service Order Not Found --></label>
+        <name>CHANNEL_ORDERS__Service_Order_Not_Found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Btn Error --></label>
+        <name>CHANNEL_ORDERS__Sync_Btn_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Terms &amp; Conditions --></label>
+        <name>CHANNEL_ORDERS__Terms_And_Conditions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The specified Endpoint URL doesn&apos;t match with server username --></label>
+        <name>CHANNEL_ORDERS__URLDoesntMatchWithServerUsername</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Partner Product Catalog information in a new tab --></label>
+        <name>CHANNEL_ORDERS__View_Product_Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Only one active contract validation --></label>
+        <name>CHANNEL_ORDERS__Zero_Active_Contract_validation_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label displayed in wizard step navigation --></label>
+        <name>CHANNEL_ORDERS__configureOrderDetailsWizardStepLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Assistive text label for customerRelatedProducts table action button --></label>
+        <name>CHANNEL_ORDERS__customerRelatedProductsTableAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product label for selectProducts table --></label>
+        <name>CHANNEL_ORDERS__customerRelatedProductsTableColumn_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product label for customerRelatedProducts table --></label>
+        <name>CHANNEL_ORDERS__customerRelatedProductsTableColumn_Product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity label for customerRelatedProducts table --></label>
+        <name>CHANNEL_ORDERS__customerRelatedProductsTableColumn_Quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status label for customerRelatedProducts table --></label>
+        <name>CHANNEL_ORDERS__customerRelatedProductsTableColumn_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Price label for customerRelatedProducts table --></label>
+        <name>CHANNEL_ORDERS__customerRelatedProductsTableColumn_TotalPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product label for selectProducts table --></label>
+        <name>CHANNEL_ORDERS__customerRelatedProductsTable_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product label for customerRelatedProducts table --></label>
+        <name>CHANNEL_ORDERS__customerRelatedProductsTable_Product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description Text for the item table component --></label>
+        <name>CHANNEL_ORDERS__description_Text_ItemTable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- editTermsForProductModal Billing Frequency --></label>
+        <name>CHANNEL_ORDERS__editTermsForProductModal_Billing_Frequency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- editTermsForProductModal Cancelation Terms (days) --></label>
+        <name>CHANNEL_ORDERS__editTermsForProductModal_Cancelation_Terms_days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- editTermsForProductModal Contract Auto Renew --></label>
+        <name>CHANNEL_ORDERS__editTermsForProductModal_Contract_Auto_Renew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- editTermsForProductModal Contract Length (months) --></label>
+        <name>CHANNEL_ORDERS__editTermsForProductModal_Contract_Length_months</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- editTermsForProductModal Edit Terms for Product --></label>
+        <name>CHANNEL_ORDERS__editTermsForProductModal_Edit_Terms_for_Product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- editTermsForProductModal Renewal Terms (months) --></label>
+        <name>CHANNEL_ORDERS__editTermsForProductModal_Renewal_Terms_months</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Description Text --></label>
+        <name>CHANNEL_ORDERS__edit_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error while retrieving products --></label>
+        <name>CHANNEL_ORDERS__errorWhileRetrievingProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when selecting a cross-object fieldsset is not allowed and attempted. --></label>
+        <name>CHANNEL_ORDERS__fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when selecting a field set for a different sobject type. --></label>
+        <name>CHANNEL_ORDERS__fflib_QueryFactory_fieldset_wrong_sobject_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Presented when attempting to nest subqueries. --></label>
+        <name>CHANNEL_ORDERS__fflib_QueryFactory_recursive_subquery_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Presented when attempting to create a subquery from an invalid relationship. --></label>
+        <name>CHANNEL_ORDERS__fflib_QueryFactory_subquery_invalid_relationship</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_insertable --></label>
+        <name>CHANNEL_ORDERS__fflib_security_error_field_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_readable --></label>
+        <name>CHANNEL_ORDERS__fflib_security_error_field_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_updateable --></label>
+        <name>CHANNEL_ORDERS__fflib_security_error_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_deletable --></label>
+        <name>CHANNEL_ORDERS__fflib_security_error_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_insertable --></label>
+        <name>CHANNEL_ORDERS__fflib_security_error_object_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_readable --></label>
+        <name>CHANNEL_ORDERS__fflib_security_error_object_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_updateable --></label>
+        <name>CHANNEL_ORDERS__fflib_security_error_object_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label displayed in wizard step navigation --></label>
+        <name>CHANNEL_ORDERS__finishAndSubmitWizardStepLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerAvailable --></label>
+        <name>CHANNEL_ORDERS__footerAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerLicToReduce --></label>
+        <name>CHANNEL_ORDERS__footerLicToReduce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerNewTotal --></label>
+        <name>CHANNEL_ORDERS__footerNewTotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerOutOf --></label>
+        <name>CHANNEL_ORDERS__footerOutOf</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerPreviousTotal --></label>
+        <name>CHANNEL_ORDERS__footerPreviousTotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerPriorReduction --></label>
+        <name>CHANNEL_ORDERS__footerPriorReduction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerTotalLic --></label>
+        <name>CHANNEL_ORDERS__footerTotalLic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerTotalLicNextTerm --></label>
+        <name>CHANNEL_ORDERS__footerTotalLicNextTerm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Contract Term Id specified is not a valid Id --></label>
+        <name>CHANNEL_ORDERS__invalidContractTermIdSpecified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The name of the Item table component --></label>
+        <name>CHANNEL_ORDERS__itemTable_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- line Item Description UIText --></label>
+        <name>CHANNEL_ORDERS__line_Item_Description_UIText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Loading label for gif icon --></label>
+        <name>CHANNEL_ORDERS__loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- priceUnitMonth --></label>
+        <name>CHANNEL_ORDERS__priceUnitMonth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add product label for add checkbox input in selectProducts table --></label>
+        <name>CHANNEL_ORDERS__selectProductsTableColumn_AddProduct</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App label for selectProducts table --></label>
+        <name>CHANNEL_ORDERS__selectProductsTableColumn_App</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Current Quantity label for selectProducts table --></label>
+        <name>CHANNEL_ORDERS__selectProductsTableColumn_CurrentLicenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pricebook label for selectProducts table --></label>
+        <name>CHANNEL_ORDERS__selectProductsTableColumn_Pricebook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pricing label for selectProducts table --></label>
+        <name>CHANNEL_ORDERS__selectProductsTableColumn_Pricing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product label for selectProducts table --></label>
+        <name>CHANNEL_ORDERS__selectProductsTableColumn_Product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unit label for selectProducts table --></label>
+        <name>CHANNEL_ORDERS__selectProductsTableColumn_Unit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label displayed in wizard step navigation --></label>
+        <name>CHANNEL_ORDERS__selectProductsWizardStepLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label displayed in wizard step navigation --></label>
+        <name>CHANNEL_ORDERS__startOrderWizardStepLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerTotalToAdd --></label>
+        <name>CHANNEL_ORDERS__totalToAdd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerTotalToRenew --></label>
+        <name>CHANNEL_ORDERS__totalToRenew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- footerTotalToUpgrade --></label>
+        <name>CHANNEL_ORDERS__totalToUpgrade</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next label button for service order wizard navigation --></label>
+        <name>CHANNEL_ORDERS__wizardNavigationUIBtn_Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back label button for service order wizard navigation --></label>
+        <name>CHANNEL_ORDERS__wizardNavigationUIBtn_Previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recall label button for service order wizard navigation --></label>
+        <name>CHANNEL_ORDERS__wizardNavigationUIBtn_Recall</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resubmit Order label button for service order wizard navigation --></label>
+        <name>CHANNEL_ORDERS__wizardNavigationUIBtn_ResubmitOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Draft label button for service order wizard navigation --></label>
+        <name>CHANNEL_ORDERS__wizardNavigationUIBtn_SaveAsDraft</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Submit Order label button for service order wizard navigation --></label>
+        <name>CHANNEL_ORDERS__wizardNavigationUIBtn_SubmitOrder</name>
+    </customLabels>
+    <customLabels>
+        <label>Menü</label>
+        <name>Menu</name>
+    </customLabels>
     <customLabels>
         <label>Validierungsregeln</label>
         <name>ValidationRules</name>
     </customLabels>
+    <customLabels>
+        <label><!-- The scheduled apex job name ScheduledNotificationSender will use. --></label>
+        <name>sfcma__ScheduledNotificationSender_job_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Composite with another label to instruct a user to click something. --></label>
+        <name>sfcma__click_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Time that will take to complete the setup step --></label>
+        <name>sfcma__cma_about_1_min</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Time that will take to complete the setup step --></label>
+        <name>sfcma__cma_about_2_mins</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Active --></label>
+        <name>sfcma__cma_active</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add --></label>
+        <name>sfcma__cma_add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Contacts --></label>
+        <name>sfcma__cma_add_contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- add endpoint --></label>
+        <name>sfcma__cma_add_endpoint</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Name --></label>
+        <name>sfcma__cma_addresses_contact_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Addresses for Partner Notifications --></label>
+        <name>sfcma__cma_addresses_partner_notifications</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Addresses for Partner Notifications inline text --></label>
+        <name>sfcma__cma_addresses_partner_notifications_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Agree Terms --></label>
+        <name>sfcma__cma_agree_terms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- And then click --></label>
+        <name>sfcma__cma_and_then_click</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Description --></label>
+        <name>sfcma__cma_build_site_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Lead in text --></label>
+        <name>sfcma__cma_build_site_lead_in_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Step 1 link text --></label>
+        <name>sfcma__cma_build_site_step1_link_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Step 1 title --></label>
+        <name>sfcma__cma_build_site_step1_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Step 2 link text --></label>
+        <name>sfcma__cma_build_site_step2_link_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Step 2 title --></label>
+        <name>sfcma__cma_build_site_step2_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Step 3 title --></label>
+        <name>sfcma__cma_build_site_step3_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Step 4 link text --></label>
+        <name>sfcma__cma_build_site_step4_link_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Step 4 title --></label>
+        <name>sfcma__cma_build_site_step4_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site Step 5 title --></label>
+        <name>sfcma__cma_build_site_step5_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Build Site title --></label>
+        <name>sfcma__cma_build_site_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel button --></label>
+        <name>sfcma__cma_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change label for action text of Setup Wizard --></label>
+        <name>sfcma__cma_change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change Stripe Account label --></label>
+        <name>sfcma__cma_change_stripe_account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change Stripe Account description --></label>
+        <name>sfcma__cma_change_stripe_account_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- cma_change_stripe_account_modal_description --></label>
+        <name>sfcma__cma_change_stripe_account_modal_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Availability --></label>
+        <name>sfcma__cma_check_availability</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Checkout Management App Title --></label>
+        <name>sfcma__cma_checkout_management_app</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Checkout Management App Description --></label>
+        <name>sfcma__cma_checkout_management_app_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Click site label --></label>
+        <name>sfcma__cma_click_site_label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close modal --></label>
+        <name>sfcma__cma_close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 4 description --></label>
+        <name>sfcma__cma_cma_meet_your_dashboard_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Complete label for description text of Setup Wizard --></label>
+        <name>sfcma__cma_complete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 3 title --></label>
+        <name>sfcma__cma_configure_notification_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 3 description --></label>
+        <name>sfcma__cma_configure_notification_settings_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure Site Access --></label>
+        <name>sfcma__cma_configure_site_access</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm Re-import Data modal title --></label>
+        <name>sfcma__cma_confirm_reimport_data_modal_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm Re-import Data modal cancel button text --></label>
+        <name>sfcma__cma_confirm_reimport_data_modal_no_button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm Re-import Data modal title --></label>
+        <name>sfcma__cma_confirm_reimport_data_modal_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm Re-import Data modal accept button text --></label>
+        <name>sfcma__cma_confirm_reimport_data_modal_yes_button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 1 title --></label>
+        <name>sfcma__cma_connect_stripe_account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect Stripe Account button label --></label>
+        <name>sfcma__cma_connect_stripe_account_button_label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 1 description --></label>
+        <name>sfcma__cma_connect_stripe_account_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect Stripe Account Description --></label>
+        <name>sfcma__cma_connect_stripe_account_modal_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect to stripe error message --></label>
+        <name>sfcma__cma_connect_stripe_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect to stripe --></label>
+        <name>sfcma__cma_connect_to_stripe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Input Placeholder text --></label>
+        <name>sfcma__cma_contact_input_placeholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Pill Remove --></label>
+        <name>sfcma__cma_contact_pill_remove</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Endpoint --></label>
+        <name>sfcma__cma_create_endpoint</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Site --></label>
+        <name>sfcma__cma_create_site</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Current Account label --></label>
+        <name>sfcma__cma_current_account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Auto-Renewal Reminder --></label>
+        <name>sfcma__cma_customer_auto_renewal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Auto-Renewal Reminder inline text --></label>
+        <name>sfcma__cma_customer_auto_renewal_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Cancelation Confirmation --></label>
+        <name>sfcma__cma_customer_cancelation_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Cancelation Confirmation inline text --></label>
+        <name>sfcma__cma_customer_cancelation_confirmation_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Cancellation Confirmation --></label>
+        <name>sfcma__cma_customer_cancellation_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Cancellation Confirmation inline text --></label>
+        <name>sfcma__cma_customer_cancellation_confirmation_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Email Notifications inline text --></label>
+        <name>sfcma__cma_customer_email_notifications_inline_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Email Notifications Title --></label>
+        <name>sfcma__cma_customer_email_notifications_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Free Trial Signup --></label>
+        <name>sfcma__cma_customer_free_trial_signup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Free Trial Signup inline text --></label>
+        <name>sfcma__cma_customer_free_trial_signup_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer License Changes --></label>
+        <name>sfcma__cma_customer_license_changes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer License Changes inline text --></label>
+        <name>sfcma__cma_customer_license_changes_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Payment Confirmation --></label>
+        <name>sfcma__cma_customer_payment_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Payment Confirmation inline text --></label>
+        <name>sfcma__cma_customer_payment_confirmation_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Payment Declined --></label>
+        <name>sfcma__cma_customer_payment_declined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Payment Declined inline text --></label>
+        <name>sfcma__cma_customer_payment_declined_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Purchase Confirmation --></label>
+        <name>sfcma__cma_customer_purchase_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Purchase Confirmation inline text --></label>
+        <name>sfcma__cma_customer_purchase_confirmation_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refund Notification --></label>
+        <name>sfcma__cma_customer_refund_notification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refund Notification inline text --></label>
+        <name>sfcma__cma_customer_refund_notification_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Trial Expiring Soon --></label>
+        <name>sfcma__cma_customer_trial_expiring</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Trial Expiring Soon inline text --></label>
+        <name>sfcma__cma_customer_trial_expiring_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default Web Address --></label>
+        <name>sfcma__cma_default_web_address</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disconnect Current Account label --></label>
+        <name>sfcma__cma_disconnect_current_account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Do it used for Setp Wizard lightning component --></label>
+        <name>sfcma__cma_do_it</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Done button text --></label>
+        <name>sfcma__cma_done</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Done --></label>
+        <name>sfcma__cma_done_button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Done label --></label>
+        <name>sfcma__cma_done_label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Assignments --></label>
+        <name>sfcma__cma_edit_assignments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Addresses for Partner Notification Action text --></label>
+        <name>sfcma__cma_email_addresses_notification_action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Addresses for Partner Notification inline text --></label>
+        <name>sfcma__cma_email_addresses_notification_inline_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Addresses for Partner Notification Title --></label>
+        <name>sfcma__cma_email_addresses_notification_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Email Branding Inline Text --></label>
+        <name>sfcma__cma_email_branding_inline_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Email Branding optional text --></label>
+        <name>sfcma__cma_email_branding_optional</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Email Branding Subtitle --></label>
+        <name>sfcma__cma_email_branding_subtitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Email Branding --></label>
+        <name>sfcma__cma_email_branding_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Notification action text --></label>
+        <name>sfcma__cma_email_notification_action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Email other text --></label>
+        <name>sfcma__cma_email_other</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Domain --></label>
+        <name>sfcma__cma_enter_domain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Values --></label>
+        <name>sfcma__cma_enter_values</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error text --></label>
+        <name>sfcma__cma_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Exit Stripe --></label>
+        <name>sfcma__cma_exit_stripe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Name --></label>
+        <name>sfcma__cma_field_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Api Key link text --></label>
+        <name>sfcma__cma_get_api_key_link_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text --></label>
+        <name>sfcma__cma_help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Email Branding Image Preview --></label>
+        <name>sfcma__cma_image_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Data Complete modal description --></label>
+        <name>sfcma__cma_import_complete_modal_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Data Complete modal title --></label>
+        <name>sfcma__cma_import_complete_modal_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Existing Stripe Data button --></label>
+        <name>sfcma__cma_import_data_modal_button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Existing Stripe Data description first paragraph --></label>
+        <name>sfcma__cma_import_data_modal_description_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Existing Stripe Data description second paragraph --></label>
+        <name>sfcma__cma_import_data_modal_description_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Existing Stripe Data title --></label>
+        <name>sfcma__cma_import_data_modal_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 2 title --></label>
+        <name>sfcma__cma_import_existing_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 2 description --></label>
+        <name>sfcma__cma_import_existing_data_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Existing Data label --></label>
+        <name>sfcma__cma_import_existing_data_label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Importing Data Modal description --></label>
+        <name>sfcma__cma_importing_data_modal_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Importing Data Modal title --></label>
+        <name>sfcma__cma_importing_data_modal_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Insufficient privilege error. Requires CMAAdminUser perm set --></label>
+        <name>sfcma__cma_insufficient_privileges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lightning Reports and Dashboards link --></label>
+        <name>sfcma__cma_lightning_reports_and_dashboards</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Live Api Key --></label>
+        <name>sfcma__cma_live_api_key</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Live Api Key Tooltip --></label>
+        <name>sfcma__cma_live_api_key_tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Data Loading text --></label>
+        <name>sfcma__cma_loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Logo Upload Modal Cancel Button --></label>
+        <name>sfcma__cma_logo_modal_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Logo Upload Modal Save Button --></label>
+        <name>sfcma__cma_logo_modal_save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Email Branding Logo Size error --></label>
+        <name>sfcma__cma_logo_size_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Email Branding Logo Upload Inline Text --></label>
+        <name>sfcma__cma_logo_upload_inline_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 4 title --></label>
+        <name>sfcma__cma_meet_your_dashboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Wizard step 4 description --></label>
+        <name>sfcma__cma_meet_your_dashboard_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Meet Your Dashboard title --></label>
+        <name>sfcma__cma_meet_your_dashboard_modal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Meet Your Dashboard Description --></label>
+        <name>sfcma__cma_meet_your_dashboard_modal_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No data was provided yet for Charge --></label>
+        <name>sfcma__cma_msg_webhook_with_no_charge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No data was provided --></label>
+        <name>sfcma__cma_msg_webhook_with_no_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No data was provided yet for Invoice --></label>
+        <name>sfcma__cma_msg_webhook_with_no_invoice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Instructions on navigating to --></label>
+        <name>sfcma__cma_nav_to_site_user</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No customer for this invoice. --></label>
+        <name>sfcma__cma_no_customer_found_for_invoice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Customer Found for Subscription --></label>
+        <name>sfcma__cma_no_customer_found_for_subscription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Customer Found for Transaction --></label>
+        <name>sfcma__cma_no_customer_found_for_transaction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Email Branding No Logo error --></label>
+        <name>sfcma__cma_no_logo_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No subscription was found to delete --></label>
+        <name>sfcma__cma_no_subscription_found_for_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Notification disabled --></label>
+        <name>sfcma__cma_notification_disabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Notification enabled --></label>
+        <name>sfcma__cma_notification_enabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Back text --></label>
+        <name>sfcma__cma_notification_settings_back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Inline Text --></label>
+        <name>sfcma__cma_notification_settings_inline_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Title --></label>
+        <name>sfcma__cma_notification_settings_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Cancellation Confirmation --></label>
+        <name>sfcma__cma_partner_cancelation_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Cancellation Confirmation inline text --></label>
+        <name>sfcma__cma_partner_cancelation_confirmation_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Cancellation Confirmation --></label>
+        <name>sfcma__cma_partner_cancellation_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Cancellation Confirmation inline text --></label>
+        <name>sfcma__cma_partner_cancellation_confirmation_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Can&apos;t Connect to Stripe --></label>
+        <name>sfcma__cma_partner_cant_connect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Can&apos;t Connect to Stripe inline text --></label>
+        <name>sfcma__cma_partner_cant_connect_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Email Notifications inline text --></label>
+        <name>sfcma__cma_partner_email_notifications_inline_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Email Notifications Title --></label>
+        <name>sfcma__cma_partner_email_notifications_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Free Trial Expired --></label>
+        <name>sfcma__cma_partner_free_trial_expired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Free Trial Expired inline text --></label>
+        <name>sfcma__cma_partner_free_trial_expired_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Free Trial Signup --></label>
+        <name>sfcma__cma_partner_free_trial_signup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Free Trial Signup inline text --></label>
+        <name>sfcma__cma_partner_free_trial_signup_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner License Changes --></label>
+        <name>sfcma__cma_partner_license_changes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner License Changes inline text --></label>
+        <name>sfcma__cma_partner_license_changes_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner License Discrepancy --></label>
+        <name>sfcma__cma_partner_license_discrepancy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner License Discrepancy inline text --></label>
+        <name>sfcma__cma_partner_license_discrepancy_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Payment Declined --></label>
+        <name>sfcma__cma_partner_payment_declined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Payment Declined inline text --></label>
+        <name>sfcma__cma_partner_payment_declined_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Purchase Confirmation --></label>
+        <name>sfcma__cma_partner_purchase_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Purchase Confirmation inline text --></label>
+        <name>sfcma__cma_partner_purchase_confirmation_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Trial Expiring Soon --></label>
+        <name>sfcma__cma_partner_trial_expiring_soon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Trial Expiring Soon inline text --></label>
+        <name>sfcma__cma_partner_trial_expiring_soon_inline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Progress Bar percentage complete --></label>
+        <name>sfcma__cma_percentage_complete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Permission Set click --></label>
+        <name>sfcma__cma_permission_set_click</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Public Access Settings --></label>
+        <name>sfcma__cma_public_access_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick Start Reports and Dashboards link --></label>
+        <name>sfcma__cma_quick_start_reports_and_dashboards</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-import data label for action text of Setup Wizard --></label>
+        <name>sfcma__cma_re_import_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reconciliation already in progress error message --></label>
+        <name>sfcma__cma_reconciliation_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Register Domain --></label>
+        <name>sfcma__cma_register_domain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-import Data button text --></label>
+        <name>sfcma__cma_reimport_data_button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-import Data error text --></label>
+        <name>sfcma__cma_reimport_data_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-import Data modal description first paragraph --></label>
+        <name>sfcma__cma_reimport_data_modal_description_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-import Data modal description second paragraph --></label>
+        <name>sfcma__cma_reimport_data_modal_description_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-import Data modal title --></label>
+        <name>sfcma__cma_reimport_data_modal_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-import Data warning text --></label>
+        <name>sfcma__cma_reimport_data_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- cma_retrieve_upsert_options --></label>
+        <name>sfcma__cma_retrieve_upsert_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save button --></label>
+        <name>sfcma__cma_save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>sfcma__cma_save_button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Require Secure Connections --></label>
+        <name>sfcma__cma_secure_connections</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select webhook --></label>
+        <name>sfcma__cma_select_webhook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Selected --></label>
+        <name>sfcma__cma_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- site guest user --></label>
+        <name>sfcma__cma_site_guest_user</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Site Label --></label>
+        <name>sfcma__cma_site_label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Site Name --></label>
+        <name>sfcma__cma_site_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Active Site Home Page --></label>
+        <name>sfcma__cma_site_page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Site Ready --></label>
+        <name>sfcma__cma_site_ready</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter site URL --></label>
+        <name>sfcma__cma_site_url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stripe Account connected description line 1 --></label>
+        <name>sfcma__cma_stripe_account_connected_desc_line1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stripe Account connected description line 2 --></label>
+        <name>sfcma__cma_stripe_account_connected_desc_line2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stripe Account connected title --></label>
+        <name>sfcma__cma_stripe_account_connected_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Time that will take to complete the setup step --></label>
+        <name>sfcma__cma_time_varies_based_on_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Trailhead logo description --></label>
+        <name>sfcma__cma_trailhead_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unauthorized --></label>
+        <name>sfcma__cma_unauthorized</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification Settings Upload Logo text --></label>
+        <name>sfcma__cma_upload_logo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Value --></label>
+        <name>sfcma__cma_value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View label for action text of Setup Wizard --></label>
+        <name>sfcma__cma_view</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Dashboard --></label>
+        <name>sfcma__cma_view_dashboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Users --></label>
+        <name>sfcma__cma_view_users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- webhook click --></label>
+        <name>sfcma__cma_webhook_click</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used as a placeholder in an example URL --></label>
+        <name>sfcma__cma_your_url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when selecting a cross-object fieldsset is not allowed and attempted. --></label>
+        <name>sfcma__fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when selecting a field set for a different sobject type. --></label>
+        <name>sfcma__fflib_QueryFactory_fieldset_wrong_sobject_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Presented when attempting to nest subqueries. --></label>
+        <name>sfcma__fflib_QueryFactory_recursive_subquery_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Presented when attempting to create a subquery from an invalid relationship. --></label>
+        <name>sfcma__fflib_QueryFactory_subquery_invalid_relationship</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_insertable --></label>
+        <name>sfcma__fflib_security_error_field_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_readable --></label>
+        <name>sfcma__fflib_security_error_field_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_updateable --></label>
+        <name>sfcma__fflib_security_error_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_deletable --></label>
+        <name>sfcma__fflib_security_error_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_insertable --></label>
+        <name>sfcma__fflib_security_error_object_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_readable --></label>
+        <name>sfcma__fflib_security_error_object_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_updateable --></label>
+        <name>sfcma__fflib_security_error_object_not_updateable</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Apex Recipes --></label>
+        <name>Apex_Recipes</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- COA Setup --></label>
+        <name>CService_Order_Credentials</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Checkout Notification Settings --></label>
+        <name>CheckoutNotificationSettings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Checkout Setup --></label>
+        <name>CheckoutSetup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Dataload Switch --></label>
+        <name>DataloadSwitch</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Orders --></label>
+        <name>Orders</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Subscribers --></label>
+        <name>Subscriber_Support</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>BillingReminder_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>CancellationProcessed_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>CancellationRefund_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>FreeTrialEnding_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>FreeTrialSignup_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>LicenseCountChanged_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Mock_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>PaymentDeclined_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>PaymentProcessed_Notification_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>PurchaseConfirmation_Notification_Flow</fullName>
+    </flowDefinitions>
+    <prompts>
+        <name>Leadcreationreceivingissues</name>
+        <promptVersions>
+            <name>Manage Leads</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>COAIntro</name>
+        <promptVersions>
+            <name>COA Intro</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>TSOintro</name>
+        <promptVersions>
+            <name>zTSO intro</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ModifyLicenses1</name>
+        <promptVersions>
+            <name>zModify Licenses1</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>SupportSubscribers</name>
+        <promptVersions>
+            <name>Support Subscribers</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>LMAIntro</name>
+        <promptVersions>
+            <name>LMA Intro</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>LinkingpackagestoLMA</name>
+        <promptVersions>
+            <name>Linking packages to LMA</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>EnvHubIntro</name>
+        <promptVersions>
+            <name>EnvHub Intro</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ApexRecipesIntroWalkthrough</name>
+        <promptVersions>
+            <name>Apex Recipes Intro Walkthrough Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Apex Recipes Intro Walkthrough Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Apex Recipes Intro Walkthrough Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Apex Recipes Intro Walkthrough Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ProductCatalog</name>
+        <promptVersions>
+            <name>Product Catalog</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ModifyLicenses</name>
+        <promptVersions>
+            <name>Modify Licenses</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>PBOHome</name>
+        <promptVersions>
+            <name>PBO Home</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ContractTerms</name>
+        <promptVersions>
+            <name>Contract Terms</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ManageServiceOrders</name>
+        <promptVersions>
+            <name>Manage Service Orders</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>TSOintro1</name>
+        <promptVersions>
+            <name>TSO intro1</name>
+        </promptVersions>
+    </prompts>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Signup Requests --></description>
+        <label><!-- Signup Requests --></label>
+        <name>Signup_Requests</name>
+        <sections>
+            <label><!-- Signup Requests --></label>
+            <name>Signup Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bildschirm-Flows --></description>
+        <label><!-- Bildschirm-Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow-Interviewprotokolle --></label>
+            <name>Flow-Interviewprotokolle</name>
+        </sections>
+        <sections>
+            <label><!-- Flow-Interviewprotokolleinträge --></label>
+            <name>Flow-Interviewprotokolleinträge</name>
+        </sections>
+    </reportTypes>
 </Translations>
