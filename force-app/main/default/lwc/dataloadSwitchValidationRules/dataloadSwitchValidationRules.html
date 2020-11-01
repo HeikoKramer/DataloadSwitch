@@ -1,0 +1,10 @@
+<template>
+
+    <ul class="slds-m-around_medium">
+        <template for:each={records} for:item="validationRule">
+            <li key={validationRule.id}>
+                Name: {validationRule.validationName} -- Active: {validationRule.active}
+            </li>
+        </template>
+    </ul>
+</template>

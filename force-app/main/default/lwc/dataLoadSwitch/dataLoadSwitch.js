@@ -29,4 +29,12 @@ export default class DataLoadSwitch extends LightningElement {
                 break;
         }*/
     }
+
+    /******************
+     * TEMPLATE
+     ******************/
+    get showValidationRules()
+    {
+        return this.currentContent === 'validationRules';
+    }
 }

@@ -13,7 +13,9 @@
             <lightning-card>
                 <div class="slds-m-around_small">
                     <!-- Main -->
-                    {currentContent}
+                    <template if:true={showValidationRules}>
+                        <c-dataload-switch-validation-rules></c-dataload-switch-validation-rules>
+                    </template>
                 </div>
             </lightning-card>
         </lightning-layout-item>

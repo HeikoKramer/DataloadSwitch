@@ -2,6 +2,6 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>50.0</apiVersion>
     <isExposed>false</isExposed>
-    <masterLabel>[Dataload Switch] Navigation Menu</masterLabel>
-    <description>Sub component of c-data-load-switch. Represent navigation menu.</description>
+    <masterLabel>[Dataload Switch] Manage validation rules</masterLabel>
+    <description>Sub component of c-data-load-switch. Management of validation rules.</description>
 </LightningComponentBundle>
