@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://test.salesforce.com/services/oauth2/authorize</authorizeUrl>
+    <consumerKey>3MVG9ZPHiJTk7yFwZKvpNLUfSSmhtA19P_0nU0rmZvREP36kxxmnei2YvHMZpoW51qPe0JC7BM4tBqGzeL.ge</consumerKey>
+    <consumerSecret>t3N327rbEKA5mFWGCC09iX14MrMR4C0IUAMhYTcwAdrTwDAH2E77OZo9CDOZXl1HmX3Kj7IOPgZzfKkh5sH3lHBBGPdiC2rX</consumerSecret>
+    <defaultScopes>full</defaultScopes>
+    <friendlyName>Tooling API Auth</friendlyName>
+    <includeOrgIdInIdentifier>true</includeOrgIdInIdentifier>
+    <providerType>Salesforce</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://test.salesforce.com/services/oauth2/token</tokenUrl>
+</AuthProvider>
