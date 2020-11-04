@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>[Dataload Switch] Validation Rules Table</masterLabel>
+    <description>Sub component of c-data-load-switch-validation-rules. Show validation rules in table structure.</description>
+</LightningComponentBundle>
