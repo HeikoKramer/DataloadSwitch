@@ -19,12 +19,16 @@ public inherited sharing class ToolingApiValidationRule {
         @AuraEnabled public Id id {get;set;}
         @AuraEnabled public Boolean active {get;set;}
         @AuraEnabled public String description {get;set;}
-        @AuraEnabled public Id entityDefintionId {get;set;}
+        @AuraEnabled public String entityDefinitionId {get;set;}
         @AuraEnabled public String errorDisplayField {get;set;}
         @AuraEnabled public String errorMessage {get;set;}
         @AuraEnabled public String manageableState {get;set;}
         @AuraEnabled public String namespacePrefix {get;set;}
         @AuraEnabled public String validationName {get;set;}
+        @AuraEnabled public Metadata metadata {get;set;}
+    }
+
+    public class Metadata {
         
     }
 }
