@@ -2,6 +2,8 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
         <headerColor>#0070D2</headerColor>
+        <logo>switch</logo>
+        <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
     <description>Include a for tab for (de)activating validation rules.</description>
@@ -11,7 +13,8 @@
     <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
     <label>Dataload Switch</label>
     <navType>Standard</navType>
-    <tabs>DataloadSwitch</tabs>
+    <tabs>Home</tabs>
+    <tabs>ValidationRules</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>DataloadSwitchUtilityBar</utilityBar>
 </CustomApplication>

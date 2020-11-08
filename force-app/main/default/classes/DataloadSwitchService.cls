@@ -1,5 +1,5 @@
 /**
-* @purpose: Controller for dataloadSwitch.lwc to controll data flow.
+* @purpose: Service class for dataloadSwitch.lwc to convert data into a correct structure.
 * @todo: Outsource deseralizaton.
 * 
 * @author:  <Christian Schwabe> (Christian.Schwabe@gmx.com)
@@ -11,18 +11,22 @@
 */
 public inherited sharing class DataloadSwitchService {
 
-    public static ToolingApiValidationRule getAllValidationRules(String namedCredential)
+    private static final String NAMED_CREDENTIAL = 'ToolingApi';
+
+    public static ToolingApiWrapper getAllValidationRules()
     {
-        String responseBody = new ToolingApiCallout(namedCredential).getAllValidationRules().rawOutput();
+        ToolingApiWrapper toolingApiWrapper;
+        String responseBody = new ToolingApiCallout(NAMED_CREDENTIAL).getAllValidationRules().rawOutput();
 
         try {
-            // Attempt to deserialize our response body into ToolingApiValidationRule.
-            ToolingApiValidationRule toolingApiValidationRule = (ToolingApiValidationRule) JSON.deserialize(
+            // Attempt to deserialize our response body into ToolingApiWrapper.
+            toolingApiWrapper = (ToolingApiWrapper) JSON.deserialize(
                 responseBody,
-                ToolingApiValidationRule.class
+                ToolingApiWrapper.class
             );
-
-            return toolingApiValidationRule;
+            DataloadSwitchHelper.addInformation(toolingApiWrapper);
+            
+            System.debug('>>>toolingApiWrapper: ' + toolingApiWrapper);
         } catch (JSONException e) {
             // If the deserialization fails, we can debug it using a JSON Exception
             System.debug(
@@ -31,12 +35,13 @@ public inherited sharing class DataloadSwitchService {
             );
         }
 
-        return null;
+
+        return toolingApiWrapper;
     }
 
-    public static toolingApiValidationRule getValidationRule(Id validationRuleId)
+    public static ToolingApiWrapper getValidationRule(Id validationRuleId)
     {
-        String responseBody = new ToolingApiCallout('ToolingApi').getValidationRule(validationRuleId).rawOutput();
+        String responseBody = new ToolingApiCallout(NAMED_CREDENTIAL).getValidationRule(validationRuleId).rawOutput();
 
         /*{
             "size":1,
@@ -66,13 +71,13 @@ public inherited sharing class DataloadSwitchService {
         }*/
 
         try {
-            // Attempt to deserialize our response body into ToolingApiValidationRule.
-            ToolingApiValidationRule toolingApiValidationRule = (ToolingApiValidationRule) JSON.deserialize(
+            // Attempt to deserialize our response body into ToolingApiWrapper.
+            ToolingApiWrapper toolingApiWrapper = (ToolingApiWrapper) JSON.deserialize(
                 responseBody,
-                ToolingApiValidationRule.class
+                ToolingApiWrapper.class
             );
 
-            return toolingApiValidationRule;
+            return toolingApiWrapper;
         } catch (JSONException e) {
             // If the deserialization fails, we can debug it using a JSON Exception
             System.debug(
@@ -82,5 +87,45 @@ public inherited sharing class DataloadSwitchService {
         }
 
         return null;
+    }
+
+    /**
+     * toogleValidationRule description
+     * @todo:
+     * Expception handling, i. e. incorrect id, found more than one validation rule. 
+     * It is not possible to change state.
+     * 
+     * @param  validationRuleId validationRuleId description
+     * @param  state            state description
+     * @return                  return description
+     */
+    public static String toogleValidationRule(Id validationRuleId, Boolean state)
+    {
+        ToolingApiWrapper.ValidationRule currentValidationRule = getValidationRule(validationRuleId).records.get(0);
+        ToolingApiWrapper.PatchValidationRule newValidationRule = new ToolingApiWrapper.PatchValidationRule();
+        newValidationRule.metadata = new ToolingApiWrapper.PatchMetadata();
+        newValidationRule.metadata.errorConditionFormula = currentValidationRule.metadata.errorConditionFormula;
+        newValidationRule.metadata.errorMessage = currentValidationRule.metadata.errorMessage;
+        newValidationRule.metadata.active = state;
+        System.debug('>newValidationRule: ' + newValidationRule);
+
+        // Attempt to serialize the request body to send in the request.
+        String requestBody = JSON.serialize(newValidationRule);
+        System.debug('>requestBody: ' + requestBody);
+
+        HttpResponse httpResponse = new ToolingApiCallout(NAMED_CREDENTIAL).toogleValidationRule(validationRuleId, requestBody).getHttpResponse();
+        System.debug('>httpResponse: ' + httpResponse);
+
+        return serializeHttpResponse(httpResponse);
+    }
+
+    private static String serializeHttpResponse(HttpResponse httpResponse)
+    {
+        Parameters parameters = new Parameters();
+        parameters.add('body', httpResponse.getBody());
+        parameters.add('status', httpResponse.getStatus());
+        parameters.add('statusCode', String.valueOf(httpResponse.getStatusCode()));
+        
+        return parameters.serialize();
     }
 }

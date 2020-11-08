@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>50.0</apiVersion>
-    <isExposed>true</isExposed>
-    <masterLabel>Data Load Switch</masterLabel>
-    <description>Allows the deactivation of metadata (e.g. validation rules) with tooling api.</description>
+    <isExposed>false</isExposed>
+    <masterLabel>[Dataload Switch] Home Tab</masterLabel>
+    <description>Describe the functionality, pros and cons about the usage of this tool.</description>
     <targets>
         <target>lightning__Tab</target>
     </targets>

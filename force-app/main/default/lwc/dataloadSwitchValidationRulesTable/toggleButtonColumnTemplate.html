@@ -1,8 +1,10 @@
 <template>
     <!--HTML template which connect custom column component with custom datatable component-->
     <c-toogle-validation-rule
-        checked={value} 
-        button-disabled={typeAttributes.buttonDisabled} 
-        row-id={typeAttributes.rowId}>
+        row-id={typeAttributes.rowId}
+        checked={value}
+        manageable-state={typeAttributes.manageableState}
+    >
     </c-toogle-validation-rule>
+    <!--button-disabled={typeAttributes.buttonDisabled}-->
 </template>

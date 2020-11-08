@@ -3,5 +3,8 @@
     <apiVersion>50.0</apiVersion>
     <isExposed>false</isExposed>
     <masterLabel>[Dataload Switch] Manage validation rules</masterLabel>
-    <description>Sub component of c-data-load-switch. Management of validation rules.</description>
+    <description>Allows the deactivation of unmanaged validation rules with tooling api.</description>
+    <targets>
+        <target>lightning__Tab</target>
+    </targets>
 </LightningComponentBundle>

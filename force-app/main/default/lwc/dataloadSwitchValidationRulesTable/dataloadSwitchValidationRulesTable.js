@@ -6,7 +6,7 @@ export default class DataloadSwitchValidationRulesTable extends LightningDatatab
         toggleButton: {
             template: toggleButtonColumnTemplate,
             standardCellLayout: true,
-            typeAttributes: ['buttonDisabled', 'rowId'],
+            typeAttributes: ['rowId', 'manageableState'],
         },
     };
 }

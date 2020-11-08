@@ -14,24 +14,23 @@ public inherited sharing class DataloadSwitchController {
     }
 
     @AuraEnabled(cacheable=true)
-    public static ToolingApiValidationRule getAllValidationRules(String namedCredential)
+    public static ToolingApiWrapper getAllValidationRules()
     {
-        namedCredential = 'ToolingApi';
-        return DataloadSwitchService.getAllValidationRules(namedCredential);
+        return DataloadSwitchService.getAllValidationRules();
     }
 
     /**
      * @todo: Not yet finished. Missing parameter validationRuleId.
      * 
      * getValidationRule description
-     * @param  namedCredential namedCredential description
+     * @param  toolingApiWrapper toolingApiWrapper description
      * @return                 return description
      */
     @AuraEnabled(cacheable=true)
-    public static ToolingApiValidationRule getValidationRule(String namedCredential)
+    public static String toogleValidationRule(Id validationRuleId, Boolean state)
     {
-        namedCredential = 'ToolingApi';
-        //return DataloadSwitchService.getValidationRule(namedCredential);
-        return null;
+        System.debug('-------------------- BEGIN CALL toogleValidationRule(validationRuleId: ' + validationRuleId + ', state: ' + state + ') --------------------');
+
+        return DataloadSwitchService.toogleValidationRule(validationRuleId, state);
     }
 }

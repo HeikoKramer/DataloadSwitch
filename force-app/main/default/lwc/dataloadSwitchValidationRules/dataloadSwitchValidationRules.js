@@ -11,23 +11,23 @@ import getAllValidationRules from '@salesforce/apex/DataloadSwitchController.get
  * DATATABLE COLUMNS
  ******************/
     const COLUMNS = [
-        { label: 'Id', fieldName: 'id' },
         { label: 'Active', fieldName: 'active', type: 'toggleButton',
             typeAttributes: { 
-                buttonDisabled: { fieldName: 'isDisabled' }, 
-                rowId: { fieldName: 'id' }, 
+                rowId: { fieldName: 'id' },
+                manageableState: { fieldName: 'manageableState' },
             }
         },
-
-        //{ label: 'Active', fieldName: 'active', type: 'boolean' },
-
+        { label: 'Validation Name', fieldName: 'validationName' },
+        { label: 'Id', fieldName: 'id' },
         { label: 'Description', fieldName: 'description' },
         { label: 'Entity Definition Id', fieldName: 'entityDefinitionId' },
         { label: 'Error Display Field', fieldName: 'errorDisplayField' },
         { label: 'Error Message', fieldName: 'errorMessage' },
-        { label: 'Manageable State', fieldName: 'manageableState' },
-        { label: 'Namespace Prefix', fieldName: 'namespacePrefix' },
-        { label: 'Validation Name', fieldName: 'validationName' },
+        { label: 'Last Modified By', fieldName: 'userUrl', type: 'url', typeAttributes: { tooltip: { fieldName: 'userName' }, label: { fieldName: 'userName' } }, sortable: true },
+        { label: 'Last Modified Date', fieldName: 'lastModifiedDate', type: 'date' },
+        
+        //{ label: 'Manageable State', fieldName: 'manageableState' },
+        //{ label: 'Namespace Prefix', fieldName: 'namespacePrefix' },
     ];
 export default class DataloadSwitchValidationRules extends LightningElement {
     columns = COLUMNS;
@@ -46,6 +46,7 @@ export default class DataloadSwitchValidationRules extends LightningElement {
             this.records = this.preprocessData(data.records);
             this.error = undefined;
         } else if (error) {
+            console.log('>error: ' + error);
             this.error = error;
             this.records = undefined;
         }
@@ -54,12 +55,12 @@ export default class DataloadSwitchValidationRules extends LightningElement {
     /******************
      * EVENT HANDLER
      ******************/
-    handleSelectedRec(event){
+    /*handleSelectedRec(event){
         console.log('>>>DataloadSwitchValidationRules -- handleSelectedRec.');
         const { rowId } = event.detail;
 
         console.log('>rowId: ' + JSON.stringify(rowId, null, '\t'));
-    }
+    }*/
 
     /******************
      * HELPER FUNCTIONS
@@ -70,7 +71,9 @@ export default class DataloadSwitchValidationRules extends LightningElement {
 
         let data = JSON.parse(JSON.stringify(value));
         data.forEach(row => {
-            row.recordId = row.id;
+            let userId = (row.lastModifiedBy && row.lastModifiedBy.Id ? row.lastModifiedBy.Id : null);
+            row.userName = (row.lastModifiedBy && row.lastModifiedBy.Name ? row.lastModifiedBy.Name : null);
+            row.userUrl = '/lightning/r/User/' + userId + '/view';
         });
         console.log('>data: ' + JSON.stringify(data, null, '\t'));
 
